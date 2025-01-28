@@ -1,0 +1,35 @@
+.footer {
+    background-color: #111;
+    color: #fff;
+    padding: 40px 0;
+}
+.footer h5 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e62e00;
+    display: inline-block;
+}
+.footer a {
+    color: #bbb;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #fff;
+}
+.social-icons a {
+    margin-right: 15px;
+    color: #fff;
+}
+.social-icons a:hover {
+    color: #e62e00;
+}
+.whatsapp-float, .call-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+}
+.whatsapp-float {
+    bottom: 80px;
+}

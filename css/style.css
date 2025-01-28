@@ -1,0 +1,94 @@
+.imageresp{
+   padding-top: 40px;
+}
+
+
+
+
+
+
+ .animation{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #000;
+  }
+  
+  .counter {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+
+
+
+
+
+
+
+
+  .hero-section {
+    height: 50vh;
+    background: linear-gradient(
+        rgba(255, 0, 0, 0.7),
+        rgba(255, 0, 0, 0.7)
+      ),
+      url('/image/bulding.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-section .small-text {
+    font-size: 1.25rem;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+  
+  .hero-section .floating-buttons {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 1.8rem;
+    }
+  
+    .hero-section .small-text {
+      font-size: 1rem;
+    }
+  }
+
+
+
+
+
+
+
+
+
+  /* Red underline for section titles */
+.red-underline {
+    width: 50px;
+    height: 4px;
+    background-color: red;
+  }
+  
+  /* Customize Accordion */
+  .accordion-button {
+    font-weight: bold;
+    color: #dc3545; /* Red */
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: #f8f9fa;
+    color: #dc3545;
+  }
+  
